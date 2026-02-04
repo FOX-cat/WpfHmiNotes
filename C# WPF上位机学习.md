@@ -732,3 +732,25 @@ public class Test
 </Grid>
 ```
 
+
+
+### WPF MVVM框架
+
+#### .NET MVVM 框架对比表
+
+|    框架     |                            Prism                             |                          MVVM Light                          |                        Caliburn.Micro                        |                    CommunityToolkit.Mvvm                     |
+| :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| GitHub 链接 | [PrismLibrary/Prism](https://github.com/PrismLibrary/Prism)  | [lbugnion/mvvmlight](https://github.com/lbugnion/mvvmlight)  | [Caliburn-Micro/Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) | [CommunityToolkit/dotnet](https://github.com/CommunityToolkit/dotnet) |
+|  最新版本   |                        9.0.537 (2025)                        |                         5.4.1 (2018)                         |                        4.0.222 (2024)                        |                         8.3.0 (2025)                         |
+|   许可证    |                             MIT                              |                             MIT                              |                             MIT                              |                             MIT                              |
+|    Stars    |                            ~6.3k                             |                            ~2.8k                             |                            ~2.7k                             |                     ~2.5k (整个 Toolkit)                     |
+|  核心功能   | - 模块化（动态加载模块）- 依赖注入（DryIoc/Unity）- 区域导航（RegionManager）- 事件聚合 | - 轻量级 MVVM- Messenger 消息传递- 简单命令绑定- 基本 DI 支持 |       - 约定优于配置- 自动视图绑定- 事件聚合- 屏幕导航       | - Source Generator（减少样板代码）- ObservableObject/RelayCommand- 轻量消息传递- 跨平台支持 |
+|   UI 集成   |    - 强大的 XAML 区域管理- 支持 Material Design/AdonisUI     |             - 简单 XAML 数据绑定- 需手动配置 UI              |         - 自动绑定 View/ViewModel- 适合复杂 UI 导航          |          - 简单绑定，跨 XAML 平台- 集成 WPF UI 控件          |
+|    性能     |         - 中等（模块化和 DI 增加开销）- 适合大型项目         |                 - 轻量，启动快- 小型项目高效                 |             - 轻量，约定减少代码- 中小型项目高效             |    - 高性能（Source Generator 优化）- 适合现代 .NET 项目     |
+|  学习曲线   |                    中等偏高（模块化复杂）                    |                       低（简单易上手）                       |                      中等（约定需熟悉）                      |                  低（现代化 API，文档清晰）                  |
+| 社区活跃度  |                   高（官方维护，频繁更新）                   |                    低（2018 后无大更新）                     |                  中等（社区驱动，更新较慢）                  |                   高（微软支持，活跃开发）                   |
+|  适用场景   |   - 大型企业级 WPF 应用- 需要模块化、动态 UI- 复杂导航需求   |         - 小型或原型项目- 简单 MVVM 需求- 初学者友好         |          - 中小型项目- 偏好约定式开发- 快速 UI 原型          |   - 现代 .NET 6/8 项目- 跨平台（WPF/MAUI）- 追求性能和简洁   |
+|  依赖注入   |                      内置 DryIoc/Unity                       |                  简单 DI（ServiceLocator）                   |                         内置简单容器                         |                无内置 DI，需外部（如 MS DI）                 |
+|  导航支持   |                   强大（RegionNavigation）                   |                       基本（需自定义）                       |                   强大（Screen/Conductor）                   |                        基本（需扩展）                        |
+| 文档 / 示例 |                  丰富（Prism-Samples-Wpf）                   |                      中等（官方教程少）                      |                      丰富（社区示例多）                      |                   优秀（微软文档 + 示例）                    |
+|   跨平台    |                   WPF 为主，部分支持 MAUI                    |                        WPF / 银光为主                        |                        WPF / 部分 UWP                        |                       WPF/MAUI/WinUI 3                       |
