@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\WpfHmiNotes\\learn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8C5F2E-58AA-8FD8-395F-1A6A557BF326}|UI_Style_Binding\\UI_Style_Binding.csproj|d:\\github\\wpfhminotes\\learn\\ui_style_binding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA8C5F2E-58AA-8FD8-395F-1A6A557BF326}|UI_Style_Binding\\UI_Style_Binding.csproj|solutionrelative:ui_style_binding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8C5F2E-58AA-8FD8-395F-1A6A557BF326}|UI_Style_Binding\\UI_Style_Binding.csproj|d:\\github\\wpfhminotes\\learn\\ui_style_binding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8C5F2E-58AA-8FD8-395F-1A6A557BF326}|UI_Style_Binding\\UI_Style_Binding.csproj|solutionrelative:ui_style_binding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub\\WpfHmiNotes\\learn\\UI_Style_Binding\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI_Style_Binding\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\GitHub\\WpfHmiNotes\\learn\\UI_Style_Binding\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UI_Style_Binding\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:28:06.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\GitHub\\WpfHmiNotes\\learn\\UI_Style_Binding\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UI_Style_Binding\\MainWindow.xaml",
+              "ToolTip": "D:\\GitHub\\WpfHmiNotes\\learn\\UI_Style_Binding\\MainWindow.xaml",
+              "RelativeToolTip": "UI_Style_Binding\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-04T08:28:03.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

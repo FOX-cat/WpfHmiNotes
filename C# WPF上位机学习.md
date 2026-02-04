@@ -754,3 +754,87 @@ public class Test
 |  导航支持   |                   强大（RegionNavigation）                   |                       基本（需自定义）                       |                   强大（Screen/Conductor）                   |                        基本（需扩展）                        |
 | 文档 / 示例 |                  丰富（Prism-Samples-Wpf）                   |                      中等（官方教程少）                      |                      丰富（社区示例多）                      |                   优秀（微软文档 + 示例）                    |
 |   跨平台    |                   WPF 为主，部分支持 MAUI                    |                        WPF / 银光为主                        |                        WPF / 部分 UWP                        |                       WPF/MAUI/WinUI 3                       |
+
+
+
+
+
+---
+
+# VS更改项目名
+
+1.重命名解决方案
+2.重命名项目名
+3.修改程序集和命名空间名称
+4.全局替换项目名
+5.修改项目文件夹名称
+6.修改[.sln文件](https://zhida.zhihu.com/search?content_id=230878975&content_type=Article&match_order=1&q=.sln文件&zhida_source=entity)
+
+示例将 OldName 重命名为 NewName
+
+**1.重命名解决方案**
+
+右键解决方案，选择重命名，将 OldName 重命名为 NewName
+
+![img](https://pica.zhimg.com/v2-5e3653eeac2751c6bb9731fc8f5e6fd4_1440w.jpg)
+
+![img](https://pic1.zhimg.com/v2-899489fb6854d7af6639a08bfcc03fc0_1440w.jpg)
+
+**2.重命名项目名**
+
+右键项目，选择重命名，将 OldName 重命名为 NewName
+
+![img](https://picx.zhimg.com/v2-935f26282c7cb89ef4e5e347a7cd1a35_1440w.jpg)
+
+![img](https://pic4.zhimg.com/v2-1f262c8dc1363f4cb20c56b7aadcf2b5_1440w.jpg)
+
+**3.修改程序集和命名空间名称（这一步可忽略）**
+
+右键项目，选择属性，在打开的窗口中修改程序集和默认命名空间
+
+![img](https://pic1.zhimg.com/v2-0bb5c0a434eb875f3c87c2592a9ddc40_1440w.jpg)
+
+![img](https://pic1.zhimg.com/v2-536d2309f35e1dca47563e13532dd6be_1440w.jpg)
+
+**4.全局替换项目名**
+
+Ctrl+F 打开搜索， 搜索 OldName，将其替换为 NewName
+
+![img](https://pica.zhimg.com/v2-db087a094c5871ec07716a8883a68872_1440w.jpg)
+
+**5.修改项目文件夹名称**
+
+1.右键解决方案，选择在文件资源管理器中打开
+2.在打开的文件管理器中找到项目文件夹，重命名为 NewName
+
+![img](https://pic4.zhimg.com/v2-9d4ac1db384545390c82c457b34bcfcd_1440w.jpg)
+
+![img](https://picx.zhimg.com/v2-994373fb7b1e0940585dfeb4007f1d0f_1440w.jpg)
+
+**6.修改.sln文件**
+
+在项目文件夹下找到.sln文件，用文本编辑器打开，将文件中的旧项目名称修改为新项目名称
+
+![img](https://pica.zhimg.com/v2-94e0e945e2d92b0f0f7f80e2b4d295ae_1440w.jpg)
+
+**修改完成**
+
+---
+
+# 程序占用小技巧
+
+**当你遇到“已经在另一个程序中打开”的提示时，通常是因为文件被其他程序占用。以下是几种常见的解决方法。**
+
+**1.** **关闭相关程序**
+
+**2.** **检查后台进程**
+
+**3.** **使用资源监视器**
+
+如果任务管理器未能找到占用进程，可以使用资源监视器进一步排查：
+
+- 按 **Win + R** 输入 `resmon` 并回车打开资源监视器
+- [在“CPU”选项卡下，展开“关联的句柄”，在搜索框中输入文件名，找到占用该文件的进程并结束它
+
+---
+
