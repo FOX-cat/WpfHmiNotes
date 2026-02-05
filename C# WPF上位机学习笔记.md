@@ -1,4 +1,4 @@
-# C# WPF上位机学习
+# C# WPF上位机学习笔记
 
 ### 串口通讯（关键）
 
@@ -736,6 +736,16 @@ public class Test
 
 ### WPF MVVM框架
 
+MVVM 模式由三个组件组成： 
+
+- Model（模型） 负责应用程序的数据和业务逻辑。 它完全不知道 View 和 ViewModel 的存在，它只是一个纯粹的数据和逻辑层，可以被任何部分复用。
+
+- View（视图） 负责应用程序的 UI 部分。
+
+- ViewModel（视图模型） 从 Model 中获取原始数据，并处理、转换为 View 需要的格式。
+
+![img](https://blog.mindtian.cn/wp-content/uploads/2025/10/1762428388-%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2025-11-06-192610.png)
+
 #### .NET MVVM 框架对比表
 
 |    框架     |                            Prism                             |                          MVVM Light                          |                        Caliburn.Micro                        |                    CommunityToolkit.Mvvm                     |
@@ -755,7 +765,25 @@ public class Test
 | 文档 / 示例 |                  丰富（Prism-Samples-Wpf）                   |                      中等（官方教程少）                      |                      丰富（社区示例多）                      |                   优秀（微软文档 + 示例）                    |
 |   跨平台    |                   WPF 为主，部分支持 MAUI                    |                        WPF / 银光为主                        |                        WPF / 部分 UWP                        |                       WPF/MAUI/WinUI 3                       |
 
+### MvvmLight -> CommunityToolkit.Mvvm
 
+基于MvvmLightLibsStd10版本***已弃用***，需要下载新的CommunityToolkit.Mvvm来替换。
+
+新版本的框架需要在程序中引用如下：
+
+Model：
+
+```c#
+using CommunityToolkit.Mvvm.ComponentModel;
+```
+
+ViewModel
+
+```c#
+using CommunityToolkit.Mvvm.Input;
+```
+
+View：保持和之前一致即可
 
 
 
